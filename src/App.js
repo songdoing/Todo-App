@@ -3,24 +3,37 @@ import TodoTemplate from "./components/TodoTemplate";
 import TodoInsert from "./components/TodoInsert";
 import TodoList from "./components/TodoList";
 
-const App = () => {
-  const [todos, setTodos] = useState([
-    {
-      id: 1,
-      text: "study react",
-      checked: true,
-    },
-    {
-      id: 2,
-      text: "component styling",
-      checked: true,
-    },
-    {
-      id: 3,
-      text: "todo App",
+function createBulkTodos() {
+  const array = [];
+  for (let i = 1; i <= 2500; i++) {
+    array.push({
+      id: i,
+      text: `what to do ${i}`,
       checked: false,
-    },
-  ]);
+    });
+  }
+  return array;
+}
+
+const App = () => {
+  const [todos, setTodos] = useState(createBulkTodos);
+  //   [
+  //   {
+  //     id: 1,
+  //     text: "study react",
+  //     checked: true,
+  //   },
+  //   {
+  //     id: 2,
+  //     text: "component styling",
+  //     checked: true,
+  //   },
+  //   {
+  //     id: 3,
+  //     text: "todo App",
+  //     checked: false,
+  //   },
+  //   ]
   const nextId = useRef(4);
 
   const onInsert = useCallback(
