@@ -3,13 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Todo App
 
 ## Technologies
-* ReactJS
-* Node-sass
-* react-dom
-* react-icons
-* react-virtualized
+
+- ReactJS
+- Node-sass
+- react-dom
+- react-icons
+- react-virtualized
+
+## Sample
+
+<a href="https://songdoing.github.io/Todo-App/">HERE</a>
 
 ## Screenshot
+
 <img src = "https://user-images.githubusercontent.com/48890162/102726756-44927d00-42ef-11eb-94af-1908f04fca1c.png">
 <img src = "https://user-images.githubusercontent.com/48890162/102726758-45c3aa00-42ef-11eb-8b1e-5b89db1fcfed.png">
 <img src = "https://user-images.githubusercontent.com/48890162/102726761-46f4d700-42ef-11eb-96e3-308e644fd446.png">
