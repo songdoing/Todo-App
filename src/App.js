@@ -5,7 +5,7 @@ import TodoList from "./components/TodoList";
 
 function createBulkTodos() {
   const array = [];
-  for (let i = 1; i <= 2500; i++) {
+  for (let i = 1; i <= 25; i++) {
     array.push({
       id: i,
       text: `what to do ${i}`,
